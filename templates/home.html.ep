@@ -1,0 +1,39 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<h1> Mojolicious Dual Robot Movement</h1>
+<h2>Dual Robot D-Pads</h2>
+<div class="grid-button">
+<button>None</button>
+<button class="linus" id="forward"> ^ </button>
+<button>None</button>
+<button>None</button>
+<button class="torvalds" id="north"> ^ </button>
+<button>None</button>
+<button class="linus" id="left"> < </button>
+<button class="linus" id="linus">Blink</button>
+<button class="linus" id="right">></button>
+<button class="torvalds" id="west"><</button>
+<button class="torvalds" id="torvalds">Blink</button>
+<button class="torvalds" id="east">></button>
+<button>None</button>
+<button class="linus" id="backward">v</button>
+<button>None</button>
+<button>None</button>
+<button class="torvalds" id="south">v</button>
+<button>None</button>
+</div>
+
+<div class="pwm-button">
+<h2>Motor PWM Control</h2>
+<button id="thirty">30%</button>
+<button id="fifty">50%</button>
+<button id="full">100%</button>
+</div>
+<script type="text/javascript" src="/logic.js"></script>
+</body>
+</html>
+
